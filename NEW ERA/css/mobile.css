@@ -1,0 +1,161 @@
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    /* Header */
+    .main-header {
+        padding: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Hero Section */
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+
+    .hero-stats {
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    /* Cars Container */
+    .cars-container {
+        padding: 4rem 1rem;
+        gap: 2rem;
+    }
+
+    .car-card {
+        height: 400px;
+        max-width: 100%;
+    }
+
+    .car-overlay {
+        padding: 1.5rem;
+    }
+
+    .car-name {
+        font-size: 1.8rem;
+    }
+
+    .car-price {
+        font-size: 1.4rem;
+    }
+
+    .car-specs {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+    }
+
+    .spec {
+        font-size: 0.9rem;
+    }
+
+    .car-description {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .feature-tag {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    /* Footer */
+    .main-footer {
+        padding: 2rem 1rem;
+    }
+
+    .footer-text {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        gap: 0.8rem;
+    }
+
+    .social-links a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small Mobile Devices */
+@media screen and (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-stats {
+        gap: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.2rem;
+    }
+
+    .car-card {
+        height: 350px;
+    }
+
+    .car-name {
+        font-size: 1.5rem;
+    }
+
+    .car-features {
+        gap: 0.3rem;
+    }
+
+    .feature-tag {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.6rem;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) {
+    .car-card:hover .car-overlay {
+        bottom: -100%;
+    }
+    
+    .car-card:active .car-overlay {
+        bottom: 0;
+    }
+
+    .car-card::before {
+        display: none;
+    }
+}
+
+/* Landscape Mode */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding: 6rem 0;
+    }
+
+    .car-card {
+        height: 300px;
+    }
+}

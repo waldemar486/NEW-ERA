@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELOCITY ELITE | Supercar Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">VELOCITY ELITE</div>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="#porsche">Porsche</a>
+        <a href="#lamborghini">Lamborghini</a>
+        <a href="#ferrari">Ferrari</a>
+        <a href="#mclaren">McLaren</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>VELOCITY ELITE</h1>
+            <p>Where Performance Meets Perfection</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Horsepower</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">2.5s</div>
+                    <div class="stat-label">0-100 km/h</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">350+</div>
+                    <div class="stat-label">Top Speed</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Cars Container -->
+    <main class="cars-container">
+        
+        <!-- Porsche 911 -->
+        <div class="car-card" id="porsche">
+            <div class="car-slideshow" id="porscheSlideshow">
+                <img src="images/cars/porsche/1.jpg" alt="Porsche 911" class="car-image active">
+                <img src="images/cars/porsche/2.jpg" alt="Porsche 911" class="car-image">
+                <img src="images/cars/porsche/3.jpg" alt="Porsche 911" class="car-image">
+            </div>
+            <div class="car-overlay">
+                <h2 class="car-name">PORSCHE 911 TURBO S</h2>
+                <div class="car-price">$250,000</div>
+                <div class="car-specs">
+                    <div class="spec"><i class="fas fa-tachometer-alt"></i> 2.7s 0-100 km/h</div>
+                    <div class="spec"><i class="fas fa-horse-head"></i> 650 HP</div>
+                    <div class="spec"><i class="fas fa-bolt"></i> 800 Nm Torque</div>
+                    <div class="spec"><i class="fas fa-road"></i> 330 km/h Top Speed</div>
+                </div>
+                <p class="car-description">
+                    Legendary sports car with boxer engine and all-wheel drive. 
+                    Perfect combination of daily usability and track performance.
+                </p>
+                <div class="car-features">
+                    <span class="feature-tag">Active Suspension</span>
+                    <span class="feature-tag">Ceramic Brakes</span>
+                    <span class="feature-tag">AWD System</span>
+                    <span class="feature-tag">Sport Chrono</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lamborghini Aventador -->
+        <div class="car-card" id="lamborghini">
+            <div class="car-slideshow" id="lamboSlideshow">
+                <img src="images/cars/lamborghini/1.jpg" alt="Lamborghini Aventador" class="car-image active">
+                <img src="images/cars/lamborghini/2.jpg" alt="Lamborghini Aventador" class="car-image">
+                <img src="images/cars/lamborghini/3.jpg" alt="Lamborghini Aventador" class="car-image">
+            </div>
+            <div class="car-overlay">
+                <h2 class="car-name">LAMBORGHINI AVENTADOR SVJ</h2>
+                <div class="car-price">$517,000</div>
+                <div class="car-specs">
+                    <div class="spec"><i class="fas fa-tachometer-alt"></i> 2.8s 0-100 km/h</div>
+                    <div class="spec"><i class="fas fa-horse-head"></i> 770 HP</div>
+                    <div class="spec"><i class="fas fa-bolt"></i> 720 Nm Torque</div>
+                    <div class="spec"><i class="fas fa-road"></i> 350 km/h Top Speed</div>
+                </div>
+                <p class="car-description">
+                    Flagship supercar from Lamborghini with ALA 2.0 active aerodynamics. 
+                    Aggressive design and incredible performance.
+                </p>
+                <div class="car-features">
+                    <span class="feature-tag">ALA 2.0</span>
+                    <span class="feature-tag">Carbon Fiber</span>
+                    <span class="feature-tag">V12 Engine</span>
+                    <span class="feature-tag">Aerodynamics</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ferrari SF90 -->
+        <div class="car-card" id="ferrari">
+            <div class="car-slideshow" id="ferrariSlideshow">
+                <img src="images/cars/ferrari/1.jpg" alt="Ferrari SF90" class="car-image active">
+                <img src="images/cars/ferrari/2.jpg" alt="Ferrari SF90" class="car-image">
+                <img src="images/cars/ferrari/3.jpg" alt="Ferrari SF90" class="car-image">
+            </div>
+            <div class="car-overlay">
+                <h2 class="car-name">FERRARI SF90 STRADALE</h2>
+                <div class="car-price">$625,000</div>
+                <div class="car-specs">
+                    <div class="spec"><i class="fas fa-tachometer-alt"></i> 2.5s 0-100 km/h</div>
+                    <div class="spec"><i class="fas fa-horse-head"></i> 1000 HP</div>
+                    <div class="spec"><i class="fas fa-bolt"></i> 900 Nm Torque</div>
+                    <div class="spec"><i class="fas fa-road"></i> 340 km/h Top Speed</div>
+                </div>
+                <p class="car-description">
+                    First hybrid Ferrari with plug-in hybrid system. 
+                    Combines V8 engine power with three electric motors.
+                </p>
+                <div class="car-features">
+                    <span class="feature-tag">Hybrid</span>
+                    <span class="feature-tag">4WD</span>
+                    <span class="feature-tag">F1 Technology</span>
+                    <span class="feature-tag">Electric Mode</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- McLaren P1 -->
+        <div class="car-card" id="mclaren">
+            <div class="car-slideshow" id="mclarenSlideshow">
+                <img src="images/cars/mclaren/1.jpg" alt="McLaren P1" class="car-image active">
+                <img src="images/cars/mclaren/2.jpg" alt="McLaren P1" class="car-image">
+                <img src="images/cars/mclaren/3.jpg" alt="McLaren P1" class="car-image">
+            </div>
+            <div class="car-overlay">
+                <h2 class="car-name">MCLAREN P1</h2>
+                <div class="car-price">$1,350,000</div>
+                <div class="car-specs">
+                    <div class="spec"><i class="fas fa-tachometer-alt"></i> 2.8s 0-100 km/h</div>
+                    <div class="spec"><i class="fas fa-horse-head"></i> 916 HP</div>
+                    <div class="spec"><i class="fas fa-bolt"></i> 900 Nm Torque</div>
+                    <div class="spec"><i class="fas fa-road"></i> 350 km/h Top Speed</div>
+                </div>
+                <p class="car-description">
+                    Hypercar from the holy trinity with Formula 1 technology. 
+                    Active aerodynamics and hybrid powertrain.
+                </p>
+                <div class="car-features">
+                    <span class="feature-tag">IPAS</span>
+                    <span class="feature-tag">DRS</span>
+                    <span class="feature-tag">Carbon Fiber</span>
+                    <span class="feature-tag">Hybrid Power</span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-text">NEON DRIVE © 2024 | EXCLUSIVE SUPERCAR COLLECTION</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/mobile.js"></script>
+</body>
+</html>
